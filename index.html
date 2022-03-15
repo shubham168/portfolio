@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <title>Shubham Jadhav || Home</title>
     <!-- font-awesome -->
     <link
@@ -78,13 +78,18 @@
           <li>
             <a
               href="https://www.linkedin.com/in/jadhavshubham168/"
+              target="_blank"
               class="social-icon"
             >
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.github.com/shubham168" class="social-icon">
+            <a
+              href="https://www.github.com/shubham168"
+              target="_blank"
+              class="social-icon"
+            >
               <i class="fab fa-github"></i>
             </a>
           </li>
@@ -100,19 +105,26 @@
           <h1>i'm Shubham</h1>
           <h4>Frontend Developer</h4>
           <a href="contact.html" class="btn hero-btn">Contact Me</a>
-          <a href="./ShubhamJadhav.pdf" class="btn hero-btn"><i class="fas fa-download"></i>Resume</a>
+          <a href="./ShubhamJadhav.pdf" target="_blank" class="btn hero-btn"
+            ><i class="fas fa-download"></i>Resume</a
+          >
           <!-- social icons -->
           <ul class="social-icons hero-icons">
             <li>
               <a
                 href="https://www.linkedin.com/in/jadhavshubham168/"
+                target="_blank"
                 class="social-icon"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.github.com/shubham168" class="social-icon">
+              <a
+                href="https://www.github.com/shubham168"
+                target="_blank"
+                class="social-icon"
+              >
                 <i class="fab fa-github"></i>
               </a>
             </li>
@@ -164,69 +176,63 @@
       <!--end of section title -->
       <div class="section-center skills-center">
         <article>
-          <h3>front end</h3>
+          <h3 style="text-align: center;">front end</h3>
           <!-- single skill -->
           <div class="skill">
-            <p>Javascript</p>
-            <div class="skill-container">
-              <div class="skill-value value-70"></div>
-              <p class="skill-text">70%</p>
-            </div>
+            <img src="./images/js-svgrepo-com.svg" height="70px" alt="" />
           </div>
           <!--end of  single skill -->
           <!-- single skill -->
           <div class="skill">
-            <p>React</p>
-            <div class="skill-container">
-              <div class="skill-value value-70"></div>
-              <p class="skill-text skill-text-70">70%</p>
-            </div>
+            <img
+              src="./images/react-svgrepo-com (1).svg"
+              height="70px"
+              alt=""
+            />
           </div>
           <!--end of  single skill -->
           <!-- single skill -->
           <div class="skill">
-            <p>HTML/CSS</p>
-            <div class="skill-container">
-              <div class="skill-value value-60"></div>
-              <p class="skill-text skill-text-60">60%</p>
+            <div>
+              <img
+                src="./images/css_html.png"
+               style=" margin :auto;  width: 23%;"
+                alt=""
+              />
             </div>
           </div>
 
           <!--end of  single skill -->
         </article>
         <article>
-          <h3>back end</h3>
+          <h3 style="text-align: center;">back end</h3>
           <!-- single skill -->
           <div class="skill">
-            <p>Node</p>
-            <div class="skill-container">
-              <div class="skill-value value-70"></div>
-              <p class="skill-text skill-text-70">70%</p>
-            </div>
+            <img src="./images/node-svgrepo-com.svg" height="60px" />
           </div>
           <!--end of  single skill -->
           <!-- single skill -->
           <div class="skill">
-            <p>Express</p>
-            <div class="skill-container">
-              <div class="skill-value value-80"></div>
-              <p class="skill-text skill-text-80">80%</p>
-            </div>
+            <img
+              src="./images//expressjs-ar21.svg"
+              style="width: 30%; margin: auto"
+              alt=""
+            />
           </div>
           <!--end of  single skill -->
           <!-- single skill -->
           <div class="skill">
-            <p>Mongo DB/Mysql</p>
-            <div class="skill-container">
-              <div class="skill-value value-60"></div>
-              <p class="skill-text skill-text-60">60%</p>
-            </div>
+            <img src="./images//mongodb-logo-svgrepo-com.svg" height="100px" />
           </div>
           <!--end of  single skill -->
         </article>
       </div>
-      <div class="skill " style="padding:2% 25% 0% 25%;margin : auto">
-        <h4 >Material UI | GIT | Firebase | Core JAVA </h4>
+      <div class="skill" style="padding: 2% 25% 0% 25%; margin: auto; display: flex ;">
+        <img src="./images/material-ui.png" style="width: 10%; margin: auto; "  alt="">
+        <img src="./images/Git-Icon.png" style="width: 10%; margin: auto; "  alt="">
+        <img src="./images/Firebase_Logo.png" style="width: 30%; margin: auto; "  alt="">
+        <img src="./images/java-svgrepo-com.svg" style="width: 10%; margin: auto; "  alt="">
+        
       </div>
     </section>
 
@@ -242,7 +248,7 @@
           I have been working on my skill set as a MERN developer and developing
           projects for a while. You can find a glimpse of them over here or just
           jump to my
-          <a href="./projects.html" style="color: hsl(42, 78%, 60%)"
+          <a href="./projects.html" target="_blank" style="color: hsl(42, 78%, 60%)"
             >projects page.</a
           >
         </p>
@@ -250,10 +256,11 @@
       <!--end of section title -->
       <div class="section-center projects-center">
         <!-- single project -->
-        <a href="projects.html" class="project-1">
+        <a href="projects.html"  target="_blank" class="project-1">
           <article class="project">
             <img
               src="./images/burger-builder.PNG"
+             
               alt="single project"
               class="project-img"
             />
@@ -269,7 +276,7 @@
         <!-- end of single project -->
 
         <!-- single project -->
-        <a href="projects.html" class="project-2">
+        <a href="projects.html" target="_blank" class="project-2">
           <article class="project">
             <img
               src="./images/delux.PNG"
@@ -286,7 +293,7 @@
           </article>
         </a>
         <!-- end of single project --><!-- single project -->
-        <a href="projects.html" class="project-3">
+        <a href="projects.html" target="_blank" class="project-3">
           <article class="project">
             <img
               src="./images/meesho-project-snip.PNG"
@@ -398,6 +405,7 @@
         <li>
           <a
             href="https://www.linkedin.com/in/jadhavshubham168/"
+            target="_blank"
             class="social-icon"
           >
             <i class="fab fa-linkedin"></i>
@@ -406,7 +414,11 @@
         <li></li>
 
         <li>
-          <a href="https://www.github.com/shubham168" class="social-icon">
+          <a
+            href="https://www.github.com/shubham168"
+            target="_blank"
+            class="social-icon"
+          >
             <i class="fab fa-github"></i>
           </a>
         </li>
